@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="InventoryApp">
+      <UniqueIdentifier>{53ffa515-7800-47cc-a724-7f957bbb6439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventoryApp\DAL">
+      <UniqueIdentifier>{342771a7-0f9b-4bdc-b5e0-a0a1b3a78b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventoryApp\BLL">
+      <UniqueIdentifier>{b316b7a4-729d-46b4-833b-0b847b65b164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventoryApp\Models">
+      <UniqueIdentifier>{9039a876-d027-4566-ab69-6fa1f430ae88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventoryApp\Properties">
+      <UniqueIdentifier>{d2381332-39f5-4e0b-8ecc-07067d38f146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventoryApp\WindowsFormsUI">
+      <UniqueIdentifier>{7e52782b-da9e-4be0-a220-fd432d9574d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHelper.h">
+      <Filter>InventoryApp\DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>InventoryApp\BLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>InventoryApp\WindowsFormsUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>InventoryApp\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>InventoryApp\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InventoryManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHelper.cpp">
+      <Filter>InventoryApp\DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryManager.cpp">
+      <Filter>InventoryApp\BLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>InventoryApp\WindowsFormsUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <Filter>InventoryApp\Properties</Filter>
+    </None>
+  </ItemGroup>
+</Project>
